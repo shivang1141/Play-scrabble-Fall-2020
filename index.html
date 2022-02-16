@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>assignment8</title>
+        
+        <!-- stylesheets -->
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+ 
+        <div id="main">
+            <!-- this is left panel -->
+            <div id="panel-left">
+                
+                <div class="container">
+                    <div class="title">PLAY SCRABBLE</div>
+                    <div id="game_board"></div>
+                    <div class="error"></div>
+                </div>
+                
+                
+                <!-- infor box contain Letter Rack and Score -->
+                <div id="info">
+                    <!-- Letter Rack -->
+                    <div id="tiles-rack" class="shadow">
+                    </div>
+                    <!-- Reset and Exchange Title -->
+                    <div id="shuff-exchange">
+                        <input type="submit" id="resetgame" value="Start over">
+                        <input type="submit" id="exchange" value="New letter">
+
+                    </div>
+                    <div id="C_Board">
+                     <!--    <input type="submit" id="back_rack" value="BACK TO RACK">  -->
+                        <input type="submit" id="clear_board" value="CLEAR BOARD">
+                    </div>
+                    <!-- Score and OK button -->
+                    <div id="scoreok">
+                        <div class="score_left">Total Score: <span id="score"></span></div>
+                        <div class="score_right"><input type="submit" id="ok" value="Check word"></div>
+                    </div>
+                </div>
+                <div id="bagtiles">
+                </div>
+    
+            </div>
+        </div>
+    
+    <!-- jQuery -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <!-- jQuery UI-->
+    <script src="js/jquery-ui.min.js"></script>
+    <!--load javascript file-->
+    <script type="text/javascript" src="js/hw8.js"></script>
+    </body>
+</html>
