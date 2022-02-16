@@ -1,0 +1,234 @@
+body{
+    background-image: url("../img/scrabble/background_1.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#main {
+    height: 100%;
+    display: table;
+    margin: auto;
+/*    position: relative; */
+}
+
+
+#panel-left {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+} 
+
+/* For Back To Home tag */
+.link {
+	/* position: relative; */
+	float: right;
+	margin-top: 270px;
+	margin-right: 15px;
+}
+
+/* for game board and title */
+.container {
+    display: table;
+}
+
+/* This is for the Letter Rack */
+#tiles-rack {
+    background-image: url("../img/scrabble/background_2.png");
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    height: 60px;
+    margin: auto;
+    border-radius: 5px; 
+    position:relative;
+}
+
+/* main div for exchange and reset button */
+#shuff-exchange{
+    text-align: center;
+    height: 55px;
+    margin: 0 auto;
+}
+
+/* Reset game button */
+#resetgame {
+    margin-top: 3px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+/* for exchange title button */
+#exchange {
+    margin-top: 3px;
+  /*  width: 180px;*/
+    height: 40px;
+    border-radius: 7px;
+}
+
+/* Clear gameboard div */
+#C_Board {
+    margin: 0 auto;
+    text-align: center;
+    border-color: blue;
+   /* border-style: solid; */
+    height: 55px;
+}
+
+/* Clear gameboard button */
+#clear_board {
+    margin-top: 3px;
+    width: 150px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+#back_rack{
+	margin-top: 3px;
+    width: 150px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+/* OK button */
+#ok {
+    margin-top: 3px;
+    width: 150px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+/* SCRABBLE ONLINE title */
+.title  {
+    margin: auto;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: ;
+}
+
+/* Error message */
+.error {
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+	height: 40px;
+}
+
+/* Remain Left table */
+#bagtiles {
+    /* border-color: black; */
+    /* border-style: solid; */
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+}
+
+/* for table cell in remaning box */
+.remainword {
+    margin: auto;
+}
+
+/* normal word class */
+.RWord {
+    text-align: center;
+    width: 38px;
+    height: 38px;
+}
+
+/* container for score and ok button */
+#scoreok {
+    display:table;
+    
+    height:100%;
+    margin: 0 auto;
+}
+
+/* score style */
+.score_left {
+    margin: 20px 50px auto;
+    display:table-cell;
+    float: left;
+}
+
+/* ok button */
+.score_right {
+    display:table-cell;
+    margin: 10px;
+    float: right;
+}
+
+/* score text size */
+#score {
+    font-size: 1.5em;
+}
+
+
+/* Change the color after accepted */
+#accepted {
+    border-color: red;
+}
+
+/* One the letter is accpet, no longer can be drag */
+#imgAccepted {
+    border-color: red;
+    /* pointer-events: none; */
+}
+
+/* all td tag in html */
+td {
+  border: 1.5px solid white;
+  resize: both;
+  height: 70px;
+  width: 70px;
+  z-index: 3;
+}
+
+/* img in td tag */
+#tbBoard img {
+    display:block;
+    width: 100%;
+
+    margin: auto;
+}
+
+/* td in RackWord*/
+#RackWord td {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+/* img in RackWord */
+#RackWord img {
+    display:block;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+}
+
+.element {
+    background-image: url("../img/scrabble/BlankSquare.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.DxLetter {
+    background-image: url("../img/scrabble/DoubleLetter.jfif");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+/* For make div in stay in order*/
+.clear{
+    clear: both;
+}
